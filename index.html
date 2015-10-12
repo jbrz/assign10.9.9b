@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>root beer - Etsy</title>
+  <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="top">
+  <div class="left">
+    <ul>
+      <li class='etsy'><a href="">Etsy</a></li>
+      <li class="search"><form method="post">
+        <input type="text" name="Search" placeholder="Search for items or shops">
+      </form></li>
+      <li><button>Search</button></li>
+    </ul>
+  </div>
+  <div class="right">
+    <ul class="right">
+      <li><a class="nav" href="">Sell on Etsy</a></li>
+      <li><a class="nav" href="">Register</a></li>
+      <li><a class="nav" href="">Sign in</a></li>
+      <li><div class="sprite"><a class="cart" href="">Cart</a></div></li>
+    </ul>
+  </div>
+</div>
+
+<nav>
+  <ul class="nav">
+      <li><a href="">Clothing &amp; Accessories</a></li>
+      <li><a href="">Jewelry</a></li>
+      <li><a href="">Craft Supplies &amp; Tools</a></li>
+      <li><a href="">Weddings</a></li>
+      <li><a href="">Entertainment</a></li>
+      <li><a href="">Home &amp; Living</a></li>
+      <li><a href="">Kids &amp; Baby</a></li>
+      <li><a href="">Vintage</a></li>
+  </ul>
+</nav>
+<div class="wrapper">
+  <div class="container">
+    <div class="Lcontain">
+      <h5>Show results for:</h5>
+      <div class="panel">
+        <div class="filter">
+          <div class="categorylist">
+            <ul class="categorylist">
+              <li><a class="cats title" href="">All Categories</a></li>
+              <li><a class="cats" href="">Jewelry</a></li>
+              <li><a class="cats" href="">Home &amp; Living</a></li>
+              <li><a class="cats" href="">Craft Supplies &amp; Tools</a></li>
+              <li><a class="cats" href="">Art &amp; Collectibles</a></li>
+              <li><a class="cats" href="">Bath &amp; Beauty</a></li>
+              <li><a class="cats" href="">Accessories</a></li>
+              <li><a class="cats" href="">Bags &amp; Purses</a></li>
+              <li><a class="cats" href="">Paper &amp; Party Supplies</a></li>
+              <li><a class="cats" href="">Clothing</a></li>
+              <li><a class="cats" href="">Toys &amp; Games</a></li>
+              <li><a class="cats" href="">Weddings</a></li>
+              <li><a class="cats" href="">Electronics &amp; Accessories</a></li>
+              <li><a class="cats" href="">Books, Movies &amp; Music</a></li>
+              <li><a class="cats" href="">Shoes</a></li>
+              <li><a class="cats" href="">Pet Supplies</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      
+      <h5>Refine your search</h5>
+      <div class="panel">
+        <div class="filterlist">
+          
+          <div class="refine"><h5>Item Type</h5>
+            <div>
+              <div class="radio"><input type="radio" name="itemtype" checked="checked"><a href="">All Items</a></div>
+              <div class="radio"><input type="radio" name="itemtype"><a href="">Handmade</a></div>
+              <div class="radio"><input type="radio" name="itemtype"><a href="">Vintage</a></div>
+            </div>
+          </div>
+
+          <div class="refine"><h5>Price</h5>
+            <div class="price">
+              <div class="lowprice">
+                <div class="pricebox">
+                  <span class="money">$</span><input type="text" placeholder="Low" class="price-input" name="LowP">
+                </div>
+              </div>
+              <div class="to">to</div>
+              <div class="highprice">
+                <div class="pricebox">
+                  <span class="money">$</span><input type="text" placeholder="High" class="price-input" name="HighP">
+                </div>
+              </div>
+              <div class="pricearrow">
+                <button class="arrow"><span></span></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="refine"><h5>Filter by Color</h5>
+            <div class="colors">
+                <a href=""><div class="red color"></div></a>
+                <a href=""><div class="orange color"></div></a>
+                <a href=""><div class="yellow color"></div></a>
+                <a href=""><div class="green color"></div></a>
+                <a href=""><div class="blue color"></div></a>
+                <a href=""><div class="PURP color"></div></a>
+                <a href=""><div class="black color"></div></a>
+                <a href=""><div class="white color"></div></a>
+              </div>
+          </div>
+          <div class="refine"><h5>Ordering Options</h5>
+            <ul>
+              <li><input type="checkbox"><a class="OrderOps" href="">Accepts Etsy Gift Cards</a>
+              </li>
+              <li><input type="checkbox"><a class="OrderOps" href="">Customizable</a></li>
+            </ul>
+          </div>
+          <div class="refine"><h5>Shop Location</h5>
+            <div>
+              <div class="radio"><input type="radio" name="loc" checked="checked"><a href="">Anywhere</a></div>
+              <div class="radio"><input type="radio" name="loc"><a href="">United States</a></div>
+              <div class="custom"><a href="">Choose a custom location</a></div>
+            </div>
+          </div>
+          <div class="refine ship"><h5>Ship To</h5>
+            <select name="ship_to" class="select" id="">
+              <option>United States</option>
+              <option>MURICA</option>
+            </select>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+    <div class="results">
+      <div class="resulttext">
+        <div class="result">
+          <ul class="Total">
+            <li><a href="">All Categories</a> <span class="Total RootBeer">&#34;root beer&#34; (3,565 Results)</span></li>
+          </ul>
+          <span class="sort">Sort by:  <a href="">Relevancy</a></span>
+        </div>
+      </div>
+
+      <div class="thumbnails">
+        <script type="text/template" id="itemTemplate">
+        <div class="rootbeer">
+          <div id="icons">
+            <a href=""><img id="heart" class="hideheart" src="images/heart.png"></a>
+            <a href=""><img id="hamburger" class="hideham" src="images/hamburger.png"></a>
+          </div>
+          <a href="<%= url %>">
+            <img class="rootimg" src="<%= Images[0].url_170x135 %>">
+            <p class="title"><%= title %></p>
+          </a>
+          <p class="shop"><%= Shop.shop_name %></p>
+          <p class="price">$<%= price + ' USD' %></p>
+        </div>
+      </script>
+      </div>
+      <div class="pages">
+        <p>Looking for shops? bubblegumANDrootbeer, AandWnotrootbeer.</p>
+      </div>
+
+      <div class="querynav">
+        <button><</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+        <button>...</button>
+        <button>86</button>
+        <button>></button>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+
+<script type="text/javascript" src="js/rootbeer.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
