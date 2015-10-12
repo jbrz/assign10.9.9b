@@ -99,6 +99,10 @@ a {
       color: $bluetext;
     }
 
+    .sprite {
+      position: relative;
+    }
+
     .cart{
         border-top: 0;
         border-bottom: 0;
@@ -111,14 +115,10 @@ a {
         &:hover{
           opacity: 1;
       }
-    .sprite {
-        background: url('./images/cart.png') no-repeat;
-        background-size: 16px 16px;
-        width: 16px;
-        height: 13px;
-        position: relative;
-        top: 15px;
-        left: 23px;
+    .cartfile {
+        position: absolute;
+        top: 25px;
+        left: 35px;
       }
     }
   }
