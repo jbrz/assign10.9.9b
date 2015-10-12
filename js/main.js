@@ -24,4 +24,4 @@
     $(this).find('#heart').addClass('hideheart').removeClass('goheart');
     $(this).find('#hamburger').addClass('hideham').removeClass('goham');
   });
-}());
+};
