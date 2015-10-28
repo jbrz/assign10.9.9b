@@ -27,24 +27,28 @@ a {
 
 //  Header
 
+.topWrap {
+  width: 100%;
+}
+
 .top {
-  display: inline-block;
+  display: block;
   text-align: center;
-  width: 980px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 80px;
+  width: 944px;
+  margin: 0 auto;
   padding-left: 18px;
   padding-right: 18px;
-  position: relative;
   
   ul {
     display: block;
-    height: 80px;
+    height: 40px;
   }
 
   .left {
     float: left;
     display: inline-block;
+    margin-top: 20px;
     
     li {
       display: inline-block;
@@ -88,6 +92,7 @@ a {
   
   .right {
     float: right;
+    margin-top: 10px;
 
     li {
       display: inline-block;
@@ -117,8 +122,6 @@ a {
       }
     .cartfile {
         position: absolute;
-        top: 25px;
-        left: 35px;
       }
     }
   }
@@ -157,7 +160,9 @@ nav {
 //  Main Section
 
 .wrapper {
+  display: flex;
   background-color: $bgcolor;
+  width: 100%;
 }
 .container {
   background-color: $bgcolor;
@@ -180,11 +185,12 @@ h5 {
 
   .Lcontain {
     float: left;
-    width: 245px;
+    width: 23%;
     height: 100%;
   }
 
   .panel {
+    background-color: white;
     border-radius: 3px;
     border: 1px solid $bordcolor;
     margin-bottom: 24px;
@@ -330,11 +336,13 @@ h5 {
 
 .results {
   padding-left: 20px;
+  width: 74%;
+  float: right;
 }
 
 .resulttext {
   display: inline-block;
-  float: right;
+
 
   ul {
     float: left;
